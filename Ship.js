@@ -45,9 +45,3 @@ class CruiseShip extends Ship {
         super('Cruise Ship', capacity, weight, engineStatus);
     }
 }
-
-
-const motorboat = new Motorboat(4, 500, 'off')
-motorboat.engineStart();
-motorboat.engineStop();
-console.log(motorboat.engineStatus)
